@@ -1,5 +1,5 @@
 node {
-    docker.image('maven:3.9.4-jdk-21').inside {
+    docker.image('maven:3.9.14').inside {
         stage('Checkout') {
             checkout scm
         }
